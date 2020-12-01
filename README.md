@@ -6,4 +6,4 @@ The Main section consist of different sub-sections such as Education,Academic Pr
 
 The Footer section consist of two buttons- Download and Hire Me.The Download button when clicked will directly download the resume.It also has social media accounts for further contacts.
 
-The Demo Url - 
+The Demo Url - https://neeta26.github.io/NJ-Profile-Page/
