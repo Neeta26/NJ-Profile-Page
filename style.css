@@ -1,0 +1,173 @@
+.primary {
+  color: #fff;
+  background: black;
+}
+
+.secondary {
+  color: #fff;
+  background: black;
+}
+
+body {
+  margin: 0;
+  font-family: "Bitter", serif;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#header .profile-summary {
+  padding: 16px;
+  flex: 1;
+}
+
+#header .profile-pic {
+  width: 100px;
+  height: 100px;
+  background-image: url(./Image/images.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 8px;
+  border-radius: 50%;
+}
+
+#header .profile-summary h1 {
+  margin: 0;
+}
+
+#contact {
+  display: flex;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+#contact a {
+  flex: 1;
+  padding: 12px 8px;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+i.fas {
+  margin-right: 8px;
+}
+
+#main {
+  display: block;
+  background-image: url(./Image/pexels-photo-952670.jpeg);
+}
+
+#main .details {
+  padding: 16px;
+  flex: 2;
+}
+
+#main .short-details {
+  padding: 16px;
+  flex: 1;
+}
+
+.section-head {
+  color: white;
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 50px;
+  margin: 8px 0 0 8px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+#main .timeline {
+  color: white;
+  padding: 12px 16px;
+  width: 100%;
+}
+
+#main .timeline td {
+  vertical-align: top;
+  padding-right: 16px;
+}
+
+#main .timeline .time {
+  width: 20%;
+}
+
+.ap {
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.nav-container {
+  margin-right: 15px;
+}
+
+.download {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hire-me {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hire-me:hover,
+.download:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.follow-me {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.sm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sm-a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.sm-a:hover {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.follow-me,
+.sm {
+  margin: 0px;
+}
+
+.cr {
+  text-align: center;
+  padding-bottom: 25px;
+}
